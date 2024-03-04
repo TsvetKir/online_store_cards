@@ -1,0 +1,13 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.product-list__item:not(:nth-child(4n)) {
+    margin-right: 30px;
+}
+
+.product-list__item:not(:nth-child(n + 9)) {
+    margin-bottom: 30px;
+}
